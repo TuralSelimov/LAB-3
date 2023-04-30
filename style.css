@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 14px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 200px;
+} 
+.nav ul li {
+    margin: 0 20px;
+}
+.nav ul li a{ 
+    text-decoration: none;
+    color: #000;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+.row .text {
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.row .text h1 {
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+.row .text p {
+    line-height: 30px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+.row .text .btn a:first-child {
+    padding: 16px 32px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 6px;
+    background-color: #1859B4;
+    margin-right: 20px;
+}
+.row .text .btn a:nth-child(2) {
+    padding: 16px 32px;
+    text-decoration: none;
+    border-radius: 6px;
+    color: #000;
+    border: 1px solid #000;
+    margin-right: 20px;
+}
+.row img {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    opacity: 1;
+}
+
+.section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sec-header p {
+    text-align: center;
+    color: #1859B4;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.sec-header h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.boxs {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 180px;
+    align-items: center;
+}
+
+.box {
+    width: 340px;
+    height: 300px;
+    border: 1px solid #cecece;
+    border-radius: 6px;
+    text-align: center;
+}
+.box p {
+    line-height: 25px;
+    padding-top: 20px;
+}
+.box img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 150px; */
+    width: 120px;
+    height: 100px;
+}
+
+.section .services {
+    margin-top: 70px;
+    text-align: center;
+}
+.section a {
+    text-decoration: none;
+    color: #fff;
+    padding: 16px 40px;
+    background-color: #1859B4;
+    border-radius: 6px;
+}
+
